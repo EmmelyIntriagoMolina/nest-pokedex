@@ -17,6 +17,11 @@ npm i -g @nest/cli
 ```
 docker compose up -d
 ```
+4. Reconstruit la base de datos con la semilla
+```
+http://localhost:3000/api/v2/seed
+```
 ## Stack usado
 * MongoBD
 * Nest
+* Docker
